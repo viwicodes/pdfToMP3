@@ -3,7 +3,7 @@ import pdfplumber, time
 import os
 
 language = 'en'
-pathToFile = 'tst1.pdf'
+pathToFile = 'path/to/your/pdf/file.pdf' # Change this variable to your desired path
 
 file = pdfplumber.open(pathToFile)
 pages = file.pages
